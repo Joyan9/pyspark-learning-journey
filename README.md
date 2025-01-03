@@ -4,7 +4,7 @@ The goal is to document my PySpark learning journey. As of Jan 1, 2025 my goal i
 ---
 
 ## Table of Contents
-1. [Spark Fundamentals](#Spark-Fundamentals)
+1. [Spark Fundamentals](#fundamentals)
 2. [DataFrame Operations](#dataframe-operations)
 3. [Data Management](#data-management)
 4. [Performance](#performance)
