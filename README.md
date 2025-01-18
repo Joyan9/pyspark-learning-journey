@@ -4,11 +4,10 @@ The goal is to document my PySpark learning journey. As of Jan 1, 2025 my goal i
 ---
 
 ## Table of Contents
-1. [Spark Fundamentals](#fundamentals)
-2. [DataFrame Operations](#dataframe-operations)
-3. [Data Management](#data-management)
-4. [Performance](#performance)
-5. [Advanced Topics](#advanced-topics)
+
+1. [Spark Fundamentals](#spark-fundamentals)  
+2. [DataFrame Operations](#dataframe-operations)  
+3. [Performance Tuning](#performance-tuning)
 
 ---
 
@@ -26,56 +25,48 @@ Key concepts and architecture of PySpark.
 ---
 
 ## DataFrame Operations
-Hands-on with PySpark DataFrames and their powerful features.
+
+Just getting by hands dirty here; Used Claude to generate some exercise questions for me
 
 ### Topics Covered:
-- **Basic Operations**:
-  - Creating DataFrames.
-  - `select`, `filter`, `where`, `orderBy`.
-- **Aggregations**:
-  - `groupBy`, `agg`, `count`, `sum`, `avg`.
-- **Window Functions**.
-- **Joins**: Inner, outer, cross joins.
-- **User-Defined Functions (UDFs)**.
 
----
-
-## Data Management
-Working with files, schema, and ensuring data quality.
-
-### Topics Covered:
-- **File Operations**:
-  - Reading and writing files (CSV, Parquet, JSON).
-- **Schema Management**: Handling schema evolution.
-- **Data Quality**:
-  - Null handling.
-  - Partitioning strategies.
-  - Caching and persistence.
+- **Basic Operations**:  
+  - Creating DataFrames from various sources.  
+  - Common operations like `select`, `filter`, `where`, `orderBy`.  
+- **Aggregations**:  
+  - Techniques like `groupBy`, `agg`, `count`, `sum`, and `avg` to summarize data.  
+- **Window Functions**:  
+  - Using row-wise computations for ranking, running totals, and more.  
+- **Joins**:  
+  - Exploring inner, outer, and cross joins with examples.  
+- **User-Defined Functions (UDFs)**:  
+  - Writing custom functions to extend PySpark's capabilities.
 
 ---
 
 ## Performance
-Optimizing and monitoring PySpark applications.
+Following the amazing **Spark Performance Tuning** playlist by by [Afaque Ahmad](https://youtube.com/playlist?list=PLWAuYt0wgRcLCtWzUxNg4BjnYlCZNEVth&si=b9dHXW5eK9VUxPe4), this section focuses on optimizing Spark applications for efficiency and scalability.
 
 ### Topics Covered:
-- **Monitoring**:
-  - Using the Spark UI.
-- **Tuning**:
-  - Partition optimization.
-  - Broadcast vs shuffle joins.
-- **Memory Management**:
-  - Cache strategies.
+- Reading Spark Query Plans
+- Reading Spark DAGs
+- Memory Management in Spark - It's Architecture
+- Shuffle Partitions
+- Bucketing
+- Caching
+- Data Skew
+- Salting for Handling Data Skew
+- AQE and Broadcast Join for Handling Data Skew
+- Dynamic Partition Pruning
 
 ---
 
-## Advanced Topics
-Exploring cutting-edge PySpark features and integrations.
+## Contributing
 
-### Topics Covered:
-- **Structured Streaming**.
-- **Machine Learning**:
-  - ML Pipeline API.
-  - Custom transformers.
-- **Integration**:
-  - Spark configurations.
-  - Hadoop/Hive integration.
+If you have suggestions, feedback, or additional resources to share, feel free to open an issue or submit a pull request. Collaboration is always welcome!  
+
+---
+
+**Let's Spark the journey together! 🔥**
+
+--- 
