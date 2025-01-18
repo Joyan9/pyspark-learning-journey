@@ -44,7 +44,7 @@ Just getting by hands dirty here; Used Claude to generate some exercise question
 
 ---
 
-## Performance
+## Performance Tuning
 Following the amazing **Spark Performance Tuning** playlist by by [Afaque Ahmad](https://youtube.com/playlist?list=PLWAuYt0wgRcLCtWzUxNg4BjnYlCZNEVth&si=b9dHXW5eK9VUxPe4), this section focuses on optimizing Spark applications for efficiency and scalability.
 
 ### Topics Covered:
